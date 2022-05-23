@@ -3,6 +3,11 @@ body {
   background-color: #f5f7fa;
 }
 
+.contact_link,
+.projet_link {
+  text-decoration: none;
+}
+
 /* main styles */
 
 .main {
@@ -28,7 +33,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 1.21;
   color: #000000;
   margin-bottom: 20px;
 }
@@ -37,7 +42,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
-  line-height: 55px;
+  line-height: 1.22;
   color: #000000;
   margin-bottom: 25px;
 }
@@ -46,7 +51,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   color: #595959;
   width: 450px;
 }
@@ -60,7 +65,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
-  line-height: 27px;
+  line-height: 1.23;
   color: #000000;
   margin-bottom: 10px;
 }
@@ -74,7 +79,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   color: #000000;
 }
 
@@ -83,7 +88,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   color: #595959;
 }
 
@@ -91,11 +96,16 @@ body {
   margin-left: 10px;
 }
 
+.projet_link:hover,
+.projet_link:focus {
+  color: #fb6d3a;
+}
+
 .project_bracket {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   color: #000000;
 }
 
@@ -109,16 +119,15 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   color: #000000;
   margin-bottom: 10px;
 }
-
-.organization {
+1.25ganization {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   color: #fb6d3a;
 }
 
@@ -126,7 +135,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 1.25;
   color: #a8a8a8;
   margin-bottom: 10px;
 }
@@ -135,7 +144,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 1.25;
   color: #000000;
 }
 
@@ -214,6 +223,16 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #424b5a;
+}
+
+.tel:hover,
+.tel:focus {
+  color: #fb6d3a;
+}
+
+.mail:hover,
+.mail:focus {
+  color: #fb6d3a;
 }
 
 .prof_skills_list,
